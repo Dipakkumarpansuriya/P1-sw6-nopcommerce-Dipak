@@ -1,0 +1,144 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7935893500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "verify Product Arrange In AlphaBatical Order",
+        "description": "",
+        "id": "computer-page-test;verify-product-arrange-in-alphabatical-order",
+        "after": [
+          {
+            "result": {
+              "duration": 133100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 921652300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on computerpage",
+            "match": {
+              "location": "ComputerPageSteps.iAmOnComputerpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 809358300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Computers and Desktops",
+            "match": {
+              "location": "ComputerPageSteps.iClickOnComputersAndDesktops()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 183270200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on sort computer and desktop \"6\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 38
+                }
+              ],
+              "location": "ComputerPageSteps.iClickOnSortComputerAndDesktop(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Computer Page Test",
+    "description": "As a user I want to build my own computer \u0026 add to cart",
+    "id": "computer-page-test",
+    "keyword": "Feature",
+    "uri": "computerpage.feature"
+  },
+  {
+    "line": 2,
+    "name": "Electronics Page Test",
+    "description": "",
+    "id": "electronics-page-test",
+    "keyword": "Feature",
+    "uri": "electronicspage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "name": "Home Page Test",
+    "description": "",
+    "id": "home-page-test",
+    "keyword": "Feature",
+    "uri": "homepage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "name": "Login Test",
+    "description": "",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "loginpage.feature"
+  },
+  {
+    "line": 2,
+    "name": "Register Test",
+    "description": "",
+    "id": "register-test",
+    "keyword": "Feature",
+    "uri": "registerpage.feature"
+  },
+  {
+    "line": 2,
+    "name": "Shopping CartPage Test",
+    "description": "",
+    "id": "shopping-cartpage-test",
+    "keyword": "Feature",
+    "uri": "shoppingcartpage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]
